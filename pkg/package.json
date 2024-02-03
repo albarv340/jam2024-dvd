@@ -1,0 +1,23 @@
+{
+  "name": "webassembly_webgl_viewer",
+  "collaborators": [
+    "Your Name <you@example.com>"
+  ],
+  "description": "A sample project with wasm-pack",
+  "version": "0.1.0",
+  "license": "MIT/Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourgithubusername/hello-wasm"
+  },
+  "files": [
+    "webassembly_webgl_viewer_bg.wasm",
+    "webassembly_webgl_viewer.js",
+    "webassembly_webgl_viewer.d.ts"
+  ],
+  "module": "webassembly_webgl_viewer.js",
+  "types": "webassembly_webgl_viewer.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
